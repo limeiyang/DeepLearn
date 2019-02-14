@@ -425,4 +425,4 @@ if __name__ == '__main__':
     print(net)
     train(net)
     net.dump()
-    correct_ratio(net)
+    #correct_ratio(net)
