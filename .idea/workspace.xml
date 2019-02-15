@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f132597-10c2-473c-bdf3-780a4cb88ebd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FCN_Number_Recognition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3FCNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/_3FCNetwork.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,7 @@
     <SUITE FILE_PATH="coverage/DeepLearn$test.coverage" NAME="test Coverage Results" MODIFIED="1549096180302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearn$1_and.coverage" NAME="1.感知器实现and函数 Coverage Results" MODIFIED="1548926418738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearn$1_.coverage" NAME="1.感知器实现 Coverage Results" MODIFIED="1548926464790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepLearn$FCN_Number_Recognition.coverage" NAME="FCN_Number_Recognition Coverage Results" MODIFIED="1550229534147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearn$2_linearUnit.coverage" NAME="2.linearUnit Coverage Results" MODIFIED="1549096186690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearn$_3FCNetwork.coverage" NAME="_3FCNetwork Coverage Results" MODIFIED="1550150806595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -39,34 +40,35 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="py" value="5768" />
+          <entry key="py" value="5972" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="5768" />
+          <entry key="Python" value="5972" />
         </counts>
       </usages-collector>
     </session>
@@ -99,13 +101,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_3FCNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="427" column="23" lean-forward="true" selection-start-line="427" selection-start-column="23" selection-end-line="427" selection-end-column="23" />
+            <state relative-caret-position="7578">
+              <caret line="423" selection-start-line="423" selection-end-line="423" />
               <folding>
                 <element signature="e#48#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FCN_Number_Recognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-41">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="e#70#83#0" expanded="true" />
+                <marker date="1550230854531" expanded="true" signature="546:551" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,6 +158,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/_2linearUnit.py" />
         <option value="$PROJECT_DIR$/_3FCNetwork.py" />
+        <option value="$PROJECT_DIR$/FCN_Number_Recognition.py" />
       </list>
     </option>
   </component>
@@ -152,9 +168,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="875" />
-    <option name="width" value="1012" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="892" />
+    <option name="width" value="985" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -163,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,30 +211,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._3FCNetwork">
+  <component name="RunManager" selected="Python.FCN_Number_Recognition">
     <configuration name="1.感知器实现" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\工作文件\程序代码\DeepLearn\_1perceptron.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1.感知器实现and函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,6 +248,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\工作文件\程序代码\DeepLearn\_2linearUnit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FCN_Number_Recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FCN_Number_Recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,18 +324,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.1.感知器实现" />
-      <item itemvalue="Python.1.感知器实现and函数" />
       <item itemvalue="Python.2.linearUnit" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python._3FCNetwork" />
+      <item itemvalue="Python.FCN_Number_Recognition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FCN_Number_Recognition" />
         <item itemvalue="Python._3FCNetwork" />
         <item itemvalue="Python.2.linearUnit" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.1.感知器实现" />
-        <item itemvalue="Python.1.感知器实现and函数" />
       </list>
     </recent_temporary>
   </component>
@@ -349,12 +365,12 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49052134" visible="true" weight="0.044235926" />
-      <window_info id="Structure" order="1" sideWeight="0.5094787" side_tool="true" visible="true" weight="0.044235926" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.054959785" />
+      <window_info id="Structure" order="1" sideWeight="0.512301" side_tool="true" visible="true" weight="0.054959785" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38929087" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32894737" />
@@ -369,7 +385,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.2382199" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
-      <window_info active="true" anchor="right" x="971" y="106" width="540" height="725" id="Debug" order="5" type="FLOATING" visible="true" weight="0.8404826" />
+      <window_info anchor="right" x="1135" y="106" width="376" height="725" id="Debug" order="5" type="FLOATING" weight="0.8404826" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +401,11 @@
           <url>file://$PROJECT_DIR$/_3FCNetwork.py</url>
           <line>423</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FCN_Number_Recognition.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -506,10 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python 3.7.0/Lib/codecs.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        <state relative-caret-position="261">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
         </state>
       </provider>
     </entry>
@@ -535,19 +556,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/_3FCNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        <state relative-caret-position="7578">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
+          <folding>
+            <element signature="e#48#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_3FCNetwork.py">
+    <entry file="file://D:/Python 3.7.0/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="427" column="23" lean-forward="true" selection-start-line="427" selection-start-column="23" selection-end-line="427" selection-end-column="23" />
+        <state relative-caret-position="192">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FCN_Number_Recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
-            <element signature="e#48#61#0" expanded="true" />
+            <element signature="e#70#83#0" expanded="true" />
+            <marker date="1550230854531" expanded="true" signature="546:551" ph="..." />
           </folding>
         </state>
       </provider>
