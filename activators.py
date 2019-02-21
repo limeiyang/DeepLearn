@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# 在_4CNN中被引用
+# 激活函数
+# forward方法实现了前向计算，而backward方法则是计算导数。
 
 import numpy as np
 
