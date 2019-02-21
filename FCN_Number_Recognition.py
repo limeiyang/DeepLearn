@@ -107,15 +107,15 @@ def get_training_data_set():
     '''
     获得训练数据集
     '''
-    image_loader = ImageLoader(r'MNIST_DATA\train-images.idx3-ubyte', 1000)
-    label_loader = LabelLoader(r'MNIST_DATA\train-labels.idx1-ubyte', 1000)
+    image_loader = ImageLoader(r'MNIST_DATA\train-images.idx3-ubyte', 100)
+    label_loader = LabelLoader(r'MNIST_DATA\train-labels.idx1-ubyte', 100)
     return image_loader.load(), label_loader.load()
 def get_test_data_set():
     '''
     获得测试数据集
     '''
-    image_loader = ImageLoader(r'MNIST_DATA\t10k-images.idx3-ubyte', 100)
-    label_loader = LabelLoader(r'MNIST_DATA\t10k-labels.idx1-ubyte', 100)
+    image_loader = ImageLoader(r'MNIST_DATA\t10k-images.idx3-ubyte', 10)
+    label_loader = LabelLoader(r'MNIST_DATA\t10k-labels.idx1-ubyte', 10)
     return image_loader.load(), label_loader.load()
 
 # 网络的输出是一个10维向量，这个向量第个(从0开始编号)元素的值最大，那么就是网络的识别结果。下面是代码实现：
@@ -139,6 +139,8 @@ def evaluate(network, test_data_set, test_labels):
             error += 1
     return float(error) / float(total)
 
+
+
 # 最后实现我们的训练策略：每训练10轮，评估一次准确率，当准确率开始下降时终止训练。下面是代码实现：
 def train_and_evaluate():
     last_error_ratio = 1.0
@@ -148,16 +150,26 @@ def train_and_evaluate():
     print('样本数据集的个数：%d' % len(train_data_set))
     print('测试数据集的个数：%d' % len(test_data_set))
     network = Network([784, 300, 10])
-    while True:
-        epoch += 1
-        network.train(train_labels, train_data_set, 0.3, 1)
-        print('%s epoch %d finished' % (datetime.datetime.now(), epoch))
-        if epoch % 10 == 0:
-            error_ratio = evaluate(network, test_data_set, test_labels)
-            print('%s after epoch %d, error ratio is %f' % (datetime.datetime.now(), epoch, error_ratio))
-            if error_ratio > last_error_ratio:
+    while True: # 迭代至准确率开始下降
+        epoch += 1 # 记录迭代次数
+        network.train(train_labels, train_data_set, 0.3, 1)# 使用训练集进行训练。0.3为学习速率，1为迭代次数
+        print('%s epoch %d finished' % (datetime.datetime.now(), epoch))# 打印时间和迭代次数
+        if epoch % 10 == 0:# 每训练10次，就计算一次准确率
+            error_ratio = evaluate(network, test_data_set, test_labels)# 计算准确率
+            print('%s after epoch %d, error ratio is %f' % (datetime.datetime.now(), epoch, error_ratio))# 打印输出错误率
+            if error_ratio > last_error_ratio:# 如果错误率开始上升就不再训练了。
                 break
             else:
-                last_error_ratio = error_ratio
+                print('错误率：', last_error_ratio)
+                last_error_ratio = error_ratio# 否则继续训练
+    index = 0
+    for layer in network.layers:
+        np.savetxt('MNIST—W' + str(index), layer.W)
+        np.savetxt('MNIST—b' + str(index), layer.b)
+        index += 1
+        print(layer.W)
+        print(layer.b)
+
+
 if __name__ == '__main__':
     train_and_evaluate()
