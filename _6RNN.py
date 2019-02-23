@@ -152,6 +152,6 @@ def test():
     l.backward(d, ReluActivator())
     return l
 
-if __name__ == '__main':
-    dd = gradient_check()
-    print(dd)
+if __name__ == '__main__':
+    gradient_check()
+    #test()
